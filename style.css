@@ -1,15 +1,14 @@
 body {
     text-align: center;
+    background: linear-gradient(#52b788, #b7e4c7);
 }
+
 h2 {
     color: red;
 }
 .hero{
-    background-image: url("images/welcome.jpg");
-    width: 720px;
-    height: 343px;
-    margin: 3px auto;
-   
+    background-image: url("images/Dhanbad1.webp");
+    background-size: cover;
 }
 
 img {
@@ -18,7 +17,7 @@ img {
 
 .middle {
     padding-top: 10px;
-    background: linear-gradient(red, blue);
+    
 }
 .landmarks, .activities {
     
