@@ -1,28 +1,42 @@
 body {
     text-align: center;
-    
+    font-family: 'Raleway', sans-serif;
 }
 
 h2 {
     color: red;
 }
 .hero{
-    background-image: url("images/coal-coal.webp");
+    background-image: url("images/coal-4.webp");
     background-size: cover;
     padding: 10px 0px 20px 0px;
-    height: 300px;  
+    height: 330px;
 }
 
 #title {
     margin-top: 100px;
+    color: blanchedalmond;
+    font-size: xx-large;
+    margin-bottom: 60px; 
 }
+
+.subheading {
+   width: 600px; 
+   margin: 0px auto; 
+   padding: 10px 15px;
+   background: whitesmoke; 
+   color:rgb(238, 117, 117);
+}
+
 img {
-    width: 100px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
 }
 
 .middle {
-    padding-top: 10px;
-    background: linear-gradient(#52b788, #b7e4c7);
+    padding: 20px;
+    margin: 0px;
     
 }
 .landmarks, .activities {
@@ -30,6 +44,16 @@ img {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.middle-img{
+    
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 .guide {
